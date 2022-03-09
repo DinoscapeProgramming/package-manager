@@ -9,7 +9,7 @@ const package = require('package-manager.js');
 
 ### Setup your own manager
 ```js
-package.setup('req.example.txt');
+package.setup('./req.example.txt');
 ```
 
 ### Use your manager
