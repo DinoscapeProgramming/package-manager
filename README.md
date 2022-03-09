@@ -6,3 +6,13 @@ A simple package manager for NPM
 ```js
 const package = require('package-manager.js');
 ```
+
+### Setup your own manager
+```js
+package.setup('req.txt');
+```
+
+### Use your manager
+```js
+package('YOUR PACKAGE');
+```
